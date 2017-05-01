@@ -9,7 +9,11 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class MarioBros extends Game {
+
+	public static final int V_WIDTH = 400;
+	public static final int V_HEIGTH = 220;
 	public SpriteBatch batch;
+
 	
 	@Override
 	public void create () {
