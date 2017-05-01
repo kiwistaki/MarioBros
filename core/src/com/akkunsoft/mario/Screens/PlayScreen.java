@@ -30,7 +30,7 @@ public class PlayScreen implements Screen {
         // create a camera to follow Mario through cam world
         this.gameCamera = new OrthographicCamera();
         // create a fitviewport to maintain virtual aspect ratio defined in MarioBros
-        this.gamePort = new FitViewport(MarioBros.V_WIDTH,MarioBros.V_HEIGTH,this.gameCamera);
+        this.gamePort = new FitViewport(MarioBros.V_WIDTH,MarioBros.V_HEIGHT,this.gameCamera);
         // create HUD to show score, level and other informations
         this.hud = new Hud(this.game.batch);
         // create a tmx map loader

@@ -33,7 +33,7 @@ public class Hud {
         this.worldTimer = 300;
         this.timeCount = 0;
         this.score = 0;
-        this.viewport = new FitViewport(MarioBros.V_WIDTH,MarioBros.V_HEIGTH, new OrthographicCamera());
+        this.viewport = new FitViewport(MarioBros.V_WIDTH,MarioBros.V_HEIGHT, new OrthographicCamera());
         stage = new Stage(this.viewport,sb);
 
         Table table = new Table();
